@@ -1,6 +1,6 @@
 name: js-Actions
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   run-shell-commands:
@@ -21,7 +21,7 @@ jobs:
             echo $GITHUB_ACTOR
             echo $GITHUB_SHA
             echo "${{ github.token }}"
-            
+
 
         - name: simple js action
           id: greet

@@ -13,13 +13,13 @@ jobs:
             node -v
             npm -v
 
-  run-windows-commands:
-    runs-on: windows-latest
-    steps:
-        - name: echo a string
-          run: echo "Hello from Windows!"
-        - name: multiline script
-          run: |
-            node -v
-            npm -v
+  # run-windows-commands:
+  #   runs-on: windows-latest
+  #   steps:
+  #       - name: echo a string
+  #         run: echo "Hello from Windows!"
+  #       - name: multiline script
+  #         run: |
+  #           node -v
+  #           npm -v
 
