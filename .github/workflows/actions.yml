@@ -2,7 +2,7 @@ name: js-Actions
 
 on: 
     schedule:
-      - cron: '*/5 * * * *'
+      - cron: '* * * * *'
     # push:
     pull_request: 
       types: [closed, opened, reopened, assigned]
