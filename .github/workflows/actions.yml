@@ -20,7 +20,9 @@ jobs:
             echo $GITHUB_REPOSITORY
             echo $GITHUB_ACTOR
             echo $GITHUB_SHA
-            ech0 "${{ github.token}}"
+            echo "${{ github.token }}"
+            
+
         - name: simple js action
           id: greet
           uses: actions/hello-world-javascript-action@v1
